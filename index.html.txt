@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>LT SPORTS | Artigos Esportivos</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #111;
+      color: #fff;
+    }
+
+    header {
+      background: #000;
+      padding: 20px;
+      text-align: center;
+    }
+
+    header img {
+      width: 120px;
+    }
+
+    header h1 {
+      margin: 10px 0 0;
+      font-size: 26px;
+      letter-spacing: 2px;
+    }
+
+    .banner {
+      padding: 40px 20px;
+      text-align: center;
+      background: linear-gradient(180deg, #000, #222);
+    }
+
+    .banner h2 {
+      font-size: 28px;
+      margin-bottom: 10px;
+    }
+
+    .banner p {
+      font-size: 16px;
+      color: #ccc;
+      margin-bottom: 25px;
+    }
+
+    .btn {
+      display: inline-block;
+      margin: 10px;
+      padding: 15px 25px;
+      background: #fff;
+      color: #000;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 5px;
+    }
+
+    .btn:hover {
+      background: #ddd;
+    }
+
+    .catalogo {
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+      margin-top: 30px;
+    }
+
+    .card {
+      background: #1c1c1c;
+      padding: 25px;
+      border-radius: 8px;
+    }
+
+    .card h3 {
+      margin-bottom: 10px;
+    }
+
+    footer {
+      background: #000;
+      text-align: center;
+      padding: 15px;
+      font-size: 14px;
+      color: #aaa;
+    }
+
+    .whatsapp {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background: #25D366;
+      color: #fff;
+      padding: 15px 22px;
+      border-radius: 50px;
+      text-decoration: none;
+      font-weight: bold;
+      box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <!-- Salve sua logo como logo.png -->
+  <img src="logo.png" alt="LT SPORTS">
+  <h1>LT SPORTS</h1>
+</header>
+
+<section class="banner">
+  <h2>Artigos Esportivos em Geral</h2>
+  <p>Camisas de time • Chuteiras • Conjuntos • Acessórios</p>
+
+  <a href="https://drive.google.com/drive/folders/17S8Jm56lbTMCBq-SUbT8JjPX5PBpSpMO" 
+     class="btn" target="_blank">
+    Ver Catálogo Completo
+  </a>
+
+  <a href="https://wa.me/5548999446708" class="btn">
+    Comprar pelo WhatsApp
+  </a>
+</section>
+
+<section class="catalogo">
+  <h2>Produtos Disponíveis</h2>
+
+  <div class="cards">
+    <div class="card">
+      <h3>👕 Camisas de Time</h3>
+      <p>Nacionais e internacionais</p>
+    </div>
+
+    <div class="card">
+      <h3>👟 Chuteiras</h3>
+      <p>Campo, society e futsal</p>
+    </div>
+
+    <div class="card">
+      <h3>🏃‍♂️ Conjuntos Esportivos</h3>
+      <p>Treino e jogo</p>
+    </div>
+
+    <div class="card">
+      <h3>⚽ Acessórios</h3>
+      <p>Bolas, meiões e mais</p>
+    </div>
+  </div>
+</section>
+
+<footer>
+  LT SPORTS © Todos os direitos reservados
+</footer>
+
+<a href="https://wa.me/5548999446708" class="whatsapp">
+  WhatsApp
+</a>
+
+</body>
+</html>
